@@ -12,6 +12,7 @@ export class FormPage {
     await this.page.fill("#lastName", "Petrov");
     await this.page.fill("#userEmail", "ivan@test.com");
     await this.page.fill("#userNumber", "1234567890");
+    await this.page.click("#gender-radio-1");
     await this.page.click("#submit");
   }
 }

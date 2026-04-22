@@ -5,5 +5,5 @@ test("fill form", async ({ formPage }) => {
 
   // проверим, что появилось окно подтверждения
   const modal = formPage["page"].locator(".modal-content");
-  // await expect(modal).toBeVisible();
+  await expect(modal).toBeVisible();
 });
