@@ -5,6 +5,7 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
+  workflow_dispatch: # 👈 ЭТО ДОБАВИТЬ для кнопки ручного запуска
 
 jobs:
   test:
